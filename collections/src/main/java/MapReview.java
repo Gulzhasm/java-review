@@ -15,7 +15,7 @@ public class MapReview {
         //java developer -> output j
         System.out.println(firstNonRepeatingChar("java developer"));
 
-        System.out.println(Arrays.toString(twoSum(new int[]{2,7,5,8}, 9)));
+        System.out.println(Arrays.toString(twoSum(new int[]{2,7,11,15}, 9)));
 
     }
 
@@ -44,8 +44,8 @@ public class MapReview {
         Map<Integer, Integer> map = new HashMap<>();
         for(int i=0; i<arr.length; i++){
             int potentialMatch = target - arr[i];
-            if(map.containsKey(potentialMatch)) return new int[]{i, potentialMatch};
-            else return new int[]{i, arr[i]};
+            if(map.containsKey(potentialMatch)) return new int[]{map.get(potentialMatch), i};
+            else map.put(arr[i], i);
         }
         return new int[]{};
     }

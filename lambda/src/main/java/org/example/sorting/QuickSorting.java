@@ -1,6 +1,6 @@
-package org.example.sorting;
+package lambda.src.main.java.org.example.sorting;
 
-public class QuickSorting implements Sorting{
+public class QuickSorting implements Sorting {
 
     @Override
     public void sort() {

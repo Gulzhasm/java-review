@@ -1,4 +1,4 @@
-package org.example.applefarm;
+package lambda.src.main.java.org.example.applefarm;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,3 +1,5 @@
+package collections.src.main.java;
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -9,13 +11,13 @@ public class MapReview {
         map.put(1, "Sergei");
         map.put(2, "Moses");
 
-        System.out.println(map.get(2));
+        // System.out.println(map.get(2));
 
         //find the first non-repeating char in a string
         //java developer -> output j
         System.out.println(firstNonRepeatingChar("java developer"));
 
-        System.out.println(Arrays.toString(twoSum(new int[]{2,7,11,15}, 9)));
+        System.out.println(Arrays.toString(twoSum(new int[]{3, 3}, 6)));
 
     }
 
@@ -38,15 +40,22 @@ public class MapReview {
         return null;
     }
 
-    //given int[] array
+    //given twoSum(new int[]{2,7,5,8}, 9) output [0,1]
 
-    public static int[] twoSum(int[] arr, int target){
+    public static int[] twoSum(int[] arr, int target) {
         Map<Integer, Integer> map = new HashMap<>();
-        for(int i=0; i<arr.length; i++){
+        int[] output = new int[2];
+        for (int i = 0; i < arr.length; i++) {
             int potentialMatch = target - arr[i];
-            if(map.containsKey(potentialMatch)) return new int[]{map.get(potentialMatch), i};
-            else map.put(arr[i], i);
+            if (map.containsKey(potentialMatch)) {
+                output[0] = map.get(potentialMatch);
+                output[1] = i;
+                return output;
+            } else {
+                map.put(arr[i], i);
+            }
         }
-        return new int[]{};
+        return output;
     }
 }
+

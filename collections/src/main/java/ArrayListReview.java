@@ -1,3 +1,5 @@
+package collections.src.main.java;
+
 import java.util.*;
 
 public class ArrayListReview {

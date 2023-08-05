@@ -1,4 +1,4 @@
-package org.example.applefarm;
+package lambda.src.main.java.org.example.applefarm;
 
 public class AppleGreenColorPredicate implements ApplePredicate {
 

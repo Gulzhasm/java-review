@@ -1,4 +1,4 @@
-package org.example.sorting;
+package lambda.src.main.java.org.example.sorting;
 
 
 public class ArraySorting {

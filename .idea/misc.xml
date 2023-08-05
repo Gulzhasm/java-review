@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/generics/pom.xml" />
         <option value="$PROJECT_DIR$/collections/pom.xml" />
         <option value="$PROJECT_DIR$/lambda/pom.xml" />
+        <option value="$PROJECT_DIR$/lombok/pom.xml" />
       </list>
     </option>
   </component>

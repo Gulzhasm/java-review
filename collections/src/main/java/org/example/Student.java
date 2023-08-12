@@ -1,4 +1,4 @@
-package collections.src.main.java;
+package org.example;
 
 import java.util.Objects;
 
@@ -13,7 +13,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "org.example.Student{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';

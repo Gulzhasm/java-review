@@ -1,4 +1,4 @@
-package collections.src.main.java;
+package org.example;
 
 import java.util.*;
 

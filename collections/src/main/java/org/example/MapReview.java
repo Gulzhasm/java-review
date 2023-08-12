@@ -1,9 +1,8 @@
-package collections.src.main.java;
+package org.example;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Stream;
 
 public class MapReview {
     public static void main(String[] args) {

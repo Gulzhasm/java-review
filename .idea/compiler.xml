@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="oop-review" />
         <module name="lambda" />
+        <module name="leetcode" />
         <module name="generics" />
         <module name="collections" />
         <module name="lombok" />

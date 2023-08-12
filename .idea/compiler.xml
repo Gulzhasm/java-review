@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="oop-review" />
         <module name="lambda" />
-        <module name="leetcode" />
         <module name="generics" />
         <module name="collections" />
+        <module name="review" />
+        <module name="oop-review" />
+        <module name="leetcode" />
         <module name="lombok" />
       </profile>
     </annotationProcessing>

@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/lambda/pom.xml" />
         <option value="$PROJECT_DIR$/lombok/pom.xml" />
         <option value="$PROJECT_DIR$/leetcode/pom.xml" />
+        <option value="$PROJECT_DIR$/review/pom.xml" />
       </list>
     </option>
   </component>

@@ -18,9 +18,9 @@ weightApple = public boolean test(Apple apple){return apple.getWeight() > 200;}
 
 **weightApple = (Apple apple) →  apple.getWeight() > 200;**
 
-lengthCount = (String s) → s.length;
+int lengthCount = (s) → s.length;
 
-myFunction = (int x, int y) →{ sout(”Result”; sout(x+y);}; - we need the curly braces when method body has more than 1 line;
+myFunction = (int x, int y) →{ sout(”Result”; sout(x+y);}; - we need curly braces when method body has more than 1 line;
 
 myLambda = () →42;
 
@@ -39,3 +39,5 @@ myLambda = () →42;
 when you do not have to specify the parameter type is called as **Inference**
 
 if you have only one argument, you do not need the parentheses ()
+
+java.utils.function -> you can always go back and revise 
